@@ -1,0 +1,14 @@
+1. Move the Chronologies folder outside the .zip file it was sent in.
+2. Double click on index.html
+3. It may ask you what you would like to open it with. 
+Choose whichever internet browser you normal use.
+
+Feel free to let me know via email or in class if you have any issues 
+getting this to work.
+
+You may find some remnants from a previous website I made that I stole 
+the framework to for this one. If you do try a larger window as the mobile
+version of this site is not formatted correctly right now.
+
+If you see any formatting or technical issues please let me know I would be
+happy to fix them.
