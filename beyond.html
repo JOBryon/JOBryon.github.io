@@ -39,6 +39,88 @@
             <div class="nav-transition"></div>
             <main>
                 <div class="clearfix"></div>
+                <p>
+                    <h1>Me</h1>
+                    If this is hard to read opening <a href="Joe.java">this</a> will make it easier
+                    <br><br>
+                    // Websites like this are written in HTML. While HTML is a coding language it relies on design more that the efficient code<br>
+                         // that I found my passion in. I am not a product like the website promotes, I do this because I found my joy in coding and<br>
+                    // helping others. While the website portrays my experiences and the conflicting chronologies that got me to this point in my<br>
+                    // education journey it is not me. This is me, this is my bio my north stars and the foundations that they are built upon.<br><br>
+
+                    // This is a require section of code so that I never have to operate off a set number of North Stars I can expand the list<br> 
+                    // whenever<br>
+                    import java.util.ArrayList;<br><br>
+
+                    // In certain coding languages in order for code to run they need to be contained in objects called classes, which is a fitting<br>
+                    // word for and object representing me and my future.<br>
+                    public class Joe {<br><br>
+                        // This is my internalized list of north stars. The word final here says that once this list has been created and north stars<br>
+                        // added to it it cannot be changed they are permanent fixtures of the list.<br>
+                        final public ArrayList<NorthStar> NorthStars;<br>
+
+                        // This is a constructor it defines what is created whenever the code is run<br>
+                        public Joe(){<br>
+                            // This is the creation of the list, before it did not exist just a name reserved for later<br>
+                            NorthStars = new ArrayList<NorthStar>();<br><br>
+                            
+                            // Each one of these is their own north star. Built off my chronologies they are points of reflection that can not be removed<br>
+                            // once added.<br>
+                            NorthStars.add(new NorthStar("Love", "The love you needed while you were struggling to learn the world, to prevent your students from feeling the pain you felt."));<br><br>
+                            NorthStars.add(new NorthStar("Genius", "Your growth in the field is due to your passion and effort. You were lucky to find your genius here, give your students to find their own and the joy that comes with it"));<br><br>
+                            NorthStars.add(new NorthStar("Validation", "Everyone deserves to find their joy. It was a long and difficult journey to find yours, help make theirs easier"));<br><br>
+                            NorthStars.add(new NorthStar("Abolition", "The world of computer science is worse due to the continued alienation of anyone who doesn't look like you. Those that are being excluded are how we have create a responsible future for technology."));<br><br>
+                            NorthStars.add(new NorthStar("Abolition", "Other humans have no less right to the privileges you hold, use that privilege to empower your students past what the hegemony dictates"));<br><br>
+                            NorthStars.add(new NorthStar("Access", "These stars are always with you. This code can be run again and again. More North Stars can be added. The world continues to change and so will you. Run this code when you are losing sight or overwhelmed. You've reached this point in seeking your joy, now all that is left is stay oriented north"));<br><br>
+                        }<br><br>
+
+                        // A set of instructions for if I ever start to fall into a burnout like Van Manen describes, a reminder of why.<br>
+                        public void dontForget()<br>
+                        {<br>
+                            // Displays a reminder for each north star<br>
+                            for (int i = 0; i < NorthStars.size(); i++)<br>
+                            {<br>
+                                NorthStars.get(i).recall();<br>
+                            }<br>
+                        }<br><br>
+
+                        // This a class that allows for every north star to be unique, allowing me to create more whenever I need to.<br>
+                        // This class is marked private only able to by accessed by the Joe class. This is because while north stars are not<br>
+                        // exclusive to myself how they exist in my heart are uniquely mine to be shared.<br>
+                        private class NorthStar{<br>
+                            // A name and a basis for each of my stars<br>
+                            private String name;<br>
+                            private String foundation;<br><br>
+                            
+                            // A constructor for each that stores the names and foundations for when I need them<br>
+                            public NorthStar(String name, String foundation){<br>
+                                this.name = name; <br>
+                                this.foundation = foundation;<br>
+                            }<br>
+
+                            // Each north star has the ability to be recalled in case they are forgotten or fading<br>
+                            public void recall()<br>
+                            {<br>
+                                System.out.println("You are here because of: " + name);<br>
+                                System.out.println("Why you are doing it is: " + foundation);<br>
+                            }<br>
+                        }<br>
+                    }
+                    <h1><Output></Output></h1>
+                    This is real working code when run it prints: <br><br>
+                    You are here because of: Love <br>
+                    Why you are doing it is: The love you needed while you were struggling to learn the world, to prevent your students from feeling the pain you felt. <br>
+                    You are here because of: Genius <br>
+                    Why you are doing it is: Your growth in the field is due to your passion and effort. You were lucky to find your genius here, give your students to find their own and the joy that comes with it <br>
+                    You are here because of: Validation <br>
+                    Why you are doing it is: Everyone deserves to find their joy. It was a long and difficult journey to find yours, help make theirs easier <br>
+                    You are here because of: Abolition <br>
+                    Why you are doing it is: The world of computer science is worse due to the continued alienation of anyone who doesn't look like you. Those that are being excluded are how we have create a responsible future for technology. <br>
+                    You are here because of: Abolition<br>
+                    Why you are doing it is: Other humans have no less right to the privileges you hold, use that privilege to empower your students past what the hegemony dictates <br>
+                    You are here because of: Access<br>
+                    Why you are doing it is: These stars are always with you. This code can be run again and again. More North Stars can be added. The world continues to change and so will you. Run this code when you are losing sight or overwhelmed. You've reached this point in seeking your joy, now all that is left is stay oriented north<br>
+                </p>
             </main>
             <footer>
                 &copy;Joseph O'Bryon 2025 <br>
